@@ -1,3 +1,17 @@
+
+
+
+.container{
+    max-width: 100%;
+
+}
+
+.subcontaienr{
+    max-width: 20%;
+}
+
+
+
 nav{
     background-color: white;
     display: flex;
@@ -5,21 +19,23 @@ nav{
     padding-left: 30px;
     padding-right: 30px;
     height: 80px;
-    max-width: 100%;
     align-items: center;
 }
 
 .nav-left{
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 .nav-elements{
-    gap: 30px;
-}
-.nav-right{
-    align-items: center;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 nav a{
@@ -28,4 +44,13 @@ nav a{
     font-weight: 500;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+nav button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
