@@ -261,7 +261,7 @@ font-size: 18px;
     padding: 10px 20px;
     border: 1px solid black;
     background-color: #84F2B6;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     cursor: pointer;
     width: 200px;
@@ -313,7 +313,7 @@ font-size: 18px;
     border-radius: 44px;
     background-color: #84F2B6;
     border: 2px solid black;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .review-p-grow-section{
@@ -361,7 +361,6 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
     width: 1000PX;
-    
 }
 
 .manage-section button{
@@ -379,10 +378,10 @@ font-size: 18px;
     font-size: 50px;
     padding-left: 20px;
 }
+
 .first-p-manage-section{
     font-size: 18px;
     width: 600px;
-    
 }
 
 .fb-p-manage-section{
@@ -393,7 +392,6 @@ font-size: 18px;
 .insta-p-manage-section{
     font-size: 18px;
     width: 300px;
-
 }
 .review-p-manage-section{
     font-size: 20px;
@@ -402,7 +400,6 @@ font-size: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 
@@ -428,9 +425,6 @@ font-size: 18px;
     padding-left:30px;
     font-size: 18px;
 }
-
-
-
 
 
 .manage-review-jpg{
@@ -463,4 +457,53 @@ font-size: 18px;
 /* End of manage-section*/
 
 /* #_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_# */
+/* End of Statistic section*/
 
+
+
+
+.statistic-sales{
+    border:2px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    justify-content:space-evenly;
+
+}
+/* left text*/
+.statistic-sales-text{
+    width:300px;
+}
+.statistic-sales-text p{
+    color: rgb(85, 85, 85);
+}
+.statistic-sales-text h2{
+    font-size: 36px;
+}
+/* right numbers*/
+.statistic-sales-numbers{
+
+    text-align: center;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+
+}
+
+.statistic-sales-number1,.statistic-sales-number2,.statistic-sales-number3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.statistic-sales-number1 h1,.statistic-sales-number2 h1,.statistic-sales-number3 h1{
+    margin:0px;
+    font-size: 70px;
+}
+.statistic-sales-number1 h5,.statistic-sales-number2 h5,.statistic-sales-number3 h5{
+    margin:0px;
+    color: darkgray;
+
+}
