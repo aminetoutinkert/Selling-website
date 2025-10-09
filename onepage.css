@@ -505,5 +505,47 @@ font-size: 18px;
 .statistic-sales-number1 h5,.statistic-sales-number2 h5,.statistic-sales-number3 h5{
     margin:0px;
     color: darkgray;
+}
+/* second part of statistic section */
 
+.statistic-help{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.statistic-help-live, .statistic-help-app, .statistic-help-mobile {
+    border:1px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; 
+    width: 300px;
+}
+
+/* 3rd part of statistic section */
+
+.statistic-free{
+    border:1px solid black;
+    border-radius: 30px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.statistic-free-right button{
+    height: 60px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #FBDF52;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.statistic-free-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
