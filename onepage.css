@@ -1,11 +1,14 @@
 
+/* Start of XXX */
+/* #_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_# */
+/* End of XXX */
 
-
+/* Container applying max-width  to header and footer */
 .container{
     max-width: 100%;
 
 }
-
+/* Subcontainer applying a lesser max-width to rest of page's content excluding header and footer */
 .subcontaienr{
     max-width: 20%;
 }
@@ -22,6 +25,7 @@ nav{
     align-items: center;
 }
 
+/* left elements of the nav bar */
 .nav-left{
     display: flex;
     align-items: center;
@@ -31,13 +35,13 @@ nav{
     display: flex;
     gap: 50px;
 }
-
+/* right elements of the nav bar */
 .nav-right{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-
+/* navbar text */
 nav a{
     text-decoration: none;
     color: black;
@@ -45,7 +49,7 @@ nav a{
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/* navbar button */
 nav button{
     padding: 10px 20px;
     border: none;
@@ -56,26 +60,31 @@ nav button{
 }
 
 /* End  of navbar */
+/* #_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_# */
 /* Start of Intro */
-.intro{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-}
 
-.intro-top{
+
+.intro{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.intro-top h1{
+/* Style of intro's text */
+
+.intro h1{
     font-size: 60px;
 }
 
-.intro-top p{
+.intro p{
     color: #747474;
+    padding-bottom: 20px;
+}
+
+
+.intro h4{
+    color: #747474;
+    font-size: x-small;
 }
 
 .button-intro{
@@ -86,23 +95,35 @@ nav button{
     color: white;
 }
 
-.intro-top h4{
-    color: #747474;
-    font-size: x-small;
-}
-
-
-
 .intro img{
- transform: scale(0.4);
+    padding-top: 40px;
+    transform: scale(1.3);
 }
-
-
-
 
 .bottom-intro {
     display: flex;
-    justify-content: space-evenly;
+    gap:100px;
+}
+
+.bottom-intro-ele1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-intro-ele2{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+}
+.bottom-intro-ele3{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+}
+.bottom-intro-ele4{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
 }
 
 .bottom-intro h3{
