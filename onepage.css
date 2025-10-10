@@ -8,6 +8,7 @@ body{
     justify-content: center;
     background-color: #000000;
     font-family: 'Inter', sans-serif;
+    
 
 }
 /* Container applying max-width  to header and footer */
@@ -19,10 +20,7 @@ body{
     align-items: center;
 
 }
-/* Subcontainer applying a lesser max-width to rest of page's content excluding header and footer */
-.subcontaienr{
-    max-width: 1200px;
-}
+
 
 /* Start of navbar */
 
@@ -140,13 +138,14 @@ nav button{
 }
 
 /* End of Intro*/
-
+/* #_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_# */
 /* End of sell-section*/
 .sell-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 1000PX;
+    margin-top: 120px;
 }
 
 .sell-section button{
@@ -254,6 +253,7 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
     width: 1000PX;
+    margin-top: 120px;
     
 }
 
@@ -361,6 +361,7 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
     width: 1000PX;
+    margin-top: 120px;
 }
 
 .manage-section button{
@@ -459,7 +460,9 @@ font-size: 18px;
 /* #_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_# */
 /* End of Statistic section*/
 
-
+.statistic{
+    margin-top: 120px;
+}
 
 
 .statistic-sales{
@@ -470,6 +473,7 @@ font-size: 18px;
     height: 300px;
     width: 1000px;
     justify-content:space-evenly;
+    margin-top: 60px;
 
 }
 /* left text*/
@@ -509,7 +513,7 @@ font-size: 18px;
 /* second part of statistic section */
 
 .statistic-help{
-    padding-top: 40px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     width: 1000px;
@@ -530,6 +534,7 @@ font-size: 18px;
 .statistic-help img{
     width: 40px;
     height: 40px;
+    color: #F9DF4F;
 }
 .statistic-help h1{
     font-size: 26px;
@@ -544,6 +549,7 @@ font-size: 18px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 60px;
 
 }
 .statistic-free-right button{
@@ -576,26 +582,33 @@ font-size: 18px;
     background-color: #000000;
     width: 1700px;
     display: flex;
-}
-.footer img{
-    width: 100px;
-    height: 100px;
+    margin-top: 120px;
+    flex-direction: column;
 }
 .footer-container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* removing list styles and flexing them*/
+.footer-container-rows{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.footer-container ul{
+.footer-container-rows ul{
     list-style: none;
     padding-left: 0;
     color: white;
 }
-.footer-container a{
+.footer-container-rows a{
     text-decoration: none;
     color: white;
 }
-.footer-container h4{
+.footer-container-rows h4{
     text-decoration: none;
     color: white;
 }
@@ -608,4 +621,43 @@ font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+/* Social icons aligning to bottom right*/
+.footer-container-socials{
+    display:flex;
+    align-items: end;
+    gap:10px;
+}
+
+.footer-container-socials i{
+    transform: scale(1.6);
+}
+
+/* search bar and button */
+.searchbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: CENTER;
+}
+#search-q{
+    background-color: #000000;
+    border:1px solid rgb(124, 124, 124);
+    height: 40px;
+    width: 300px;
+    color: white;
+    margin-left: 360px;
+}
+.searchbar button{
+    background-color: #000000;
+    border: none;
+    position: relative;
+    right: 34px;
+}
+.searchbar img{
+    width: 150px;
+    height: 40px;
+}
+.searchbar-imgs{
+    padding-right: 50px;
 }
