@@ -509,7 +509,7 @@ font-size: 18px;
 /* second part of statistic section */
 
 .statistic-help{
-    padding-top: 30px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     width: 1000px;
@@ -520,9 +520,20 @@ font-size: 18px;
     border-radius: 30px;
     display: flex;
     flex-direction: column; 
+    justify-content: space-between;
+    align-items: left;
+    padding-left: 10px;
+    padding-top: 10px;
     width: 300px;
+    height: 300px;
 }
-
+.statistic-help img{
+    width: 40px;
+    height: 40px;
+}
+.statistic-help h1{
+    font-size: 26px;
+}
 /* 3rd part of statistic section */
 
 .statistic-free{
@@ -533,13 +544,15 @@ font-size: 18px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 .statistic-free-right button{
-    height: 60px;
-    width: 150px;
+    height: 50px;
+    width: 250px;
     border: 1px solid black;
+    border-radius: 20px;
     background-color: #FBDF52;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     cursor: pointer;
 
@@ -548,4 +561,37 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.statistic-free-right h5{
+    color: rgb(100, 100, 100);
+}
+.statistic-free h1{
+    width: 380px;
+}
+/* End of statistic-section*/
+
+/* #_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_##_#-#_#-#_# */
+/* Start of footer */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-container ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-container a{
+    text-decoration: none;
+}
+.footer-container-firstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-container-secondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
