@@ -661,3 +661,11 @@ font-size: 18px;
 .searchbar-imgs{
     padding-right: 50px;
 }
+
+hr{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    width: 70%;
+
+}
