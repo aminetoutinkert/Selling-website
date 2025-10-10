@@ -6,6 +6,7 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #000000;
     font-family: 'Inter', sans-serif;
     
@@ -154,13 +155,13 @@ nav button{
     color: rgb(0, 0, 0);
     font-size: 16px;
     cursor: pointer;
-    width: 200px;
+    width: 260px;
     border-radius: 25px;
 }
 
 .sell-section h1{
     font-size: 50px;
-    padding-left: 20px;
+    
 }
 .first-p-sell-section{
     font-size: 18px;
@@ -200,6 +201,7 @@ font-size: 18px;
 }
 
 .review-sell-section{
+    width: 1200px;
     border-radius: 44px;
     background-color: #FEC699;
     border: 2px solid black;
@@ -487,7 +489,7 @@ font-size: 18px;
 }
 /* right numbers*/
 .statistic-sales-numbers{
-
+    align-items: end;
     text-align: center;
     display: flex;
     width: 400px;
@@ -495,20 +497,22 @@ font-size: 18px;
 
 }
 
+
 .statistic-sales-number1,.statistic-sales-number2,.statistic-sales-number3 {
     display: flex;
     flex-direction: column;
-
 }
 
 .statistic-sales-number1 h1,.statistic-sales-number2 h1,.statistic-sales-number3 h1{
     margin:0px;
     font-size: 70px;
+
 }
 .statistic-sales-number1 h5,.statistic-sales-number2 h5,.statistic-sales-number3 h5{
     margin:0px;
     color: darkgray;
 }
+
 /* second part of statistic section */
 
 .statistic-help{
