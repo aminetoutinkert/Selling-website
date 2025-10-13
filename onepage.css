@@ -161,6 +161,7 @@ nav button{
 
 .sell-section h1{
     font-size: 50px;
+    padding-left: 0px;
     
 }
 .first-p-sell-section{
@@ -196,19 +197,19 @@ font-size: 18px;
 
 .sell-section-right img{
     position: relative;
-    left: 27px;
-    top: 57px;
+    left: 31px;
+    top: 60px;
 }
 
 .review-sell-section{
-    width: 1200px;
+    width: 1000px;
     border-radius: 44px;
     background-color: #FEC699;
     border: 2px solid black;
 }
 
 .review-p-sell-section{
-    width: 800px;
+    width: 600px;
     padding-left:30px;
     font-size: 18px;
 }
@@ -291,6 +292,7 @@ font-size: 18px;
 }
 .review-p-grow-section{
     font-size: 20px;
+
 }
 .fb-insta-grow-section{
     display: flex;
@@ -306,8 +308,8 @@ font-size: 18px;
 
 .grow-section-right img{
     position: relative;
-    right: 27px;
-    top: 53px;
+    right: 129px;
+    top: 95px;
 }
 
 .review-grow-section{
@@ -318,8 +320,8 @@ font-size: 18px;
 }
 
 .review-p-grow-section{
-    width: 800px;
-    padding-left:30px;
+    width: 600px;
+    padding-left:380px;
     font-size: 18px;
 }
 
@@ -338,10 +340,12 @@ font-size: 18px;
     display: flex;
     align-items: center;
     gap:10px;
-    padding-left: 24px;
+    padding-RIGHT: 415px;
     
 }
-
+.grow-review-png{
+    padding-left: 20px;
+}
 .review-grow-section-bot-right{
     display: flex;
     text-align: center;
@@ -412,7 +416,7 @@ font-size: 18px;
 .manage-section-right img{
     position: relative;
     right: 27px;
-    top: 85px;
+    top: 88px;
 }
 
 .review-manage-section{
