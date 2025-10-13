@@ -301,14 +301,14 @@ font-size: 18px;
 
 }
 
-
 .grow-section-left-right{
     display: flex;
+    justify-content: flex-end;
 }
 
 .grow-section-right img{
     position: relative;
-    right: 129px;
+    right: 22px;
     top: 95px;
 }
 
