@@ -635,7 +635,7 @@ font-size: 18px;
 /* Social icons aligning to bottom right*/
 .footer-container-socials{
     display:flex;
-    align-items: end;
+    align-items: flex-end;
     gap:10px;
 }
 
